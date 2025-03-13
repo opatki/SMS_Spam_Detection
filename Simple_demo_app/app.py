@@ -63,7 +63,7 @@ def load_model():
     except FileNotFoundError:
         # If model files don't exist yet, create dummy objects for demonstration
         st.warning("Model files not found. Using a demo mode.")
-        vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
+        vectorizer = TfidfVectorizer(stop_words='english', max_features=3000)
         model = RandomForestClassifier(n_estimators=100, random_state=42)
         return model, vectorizer
 
