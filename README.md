@@ -16,7 +16,7 @@
 
 ## 📚 Skills Learned
 - Text preprocessing & feature engineering
+- ML model training & evaluation
+- Handling an imbalanced dataset
 
-ML model training & evaluation
-
-Handling imbalanced dataset
+![A look at the navigation](Spam-Detection.gif)
